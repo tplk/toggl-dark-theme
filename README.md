@@ -4,6 +4,8 @@
 
 Dark theme for [Toggl](https://toggl.com).
 
+![A screenshot of theme applied](docs/screenshot-preview.jpg)
+
 ## Install
 
 A userstyle extension is required, common ones include:
