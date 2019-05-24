@@ -26,7 +26,8 @@
   ],
   "scripts": {
     "lint": "stylelint **/*.css --custom-formatter=node_modules/stylelint-formatter-pretty",
-    "lint:fix": "npm run lint -- --fix"
+    "lint:fix": "npm run lint -- --fix",
+    "version": "node build_scripts/update-usercss-version.js toggl-dark-theme.user.css && git add toggl-dark-theme.user.css"
   },
   "devDependencies": {
     "husky": "2.3.0",
