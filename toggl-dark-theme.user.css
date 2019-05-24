@@ -528,4 +528,11 @@
   }
 
   /* END expand entries button */
+
+  /* START hotfix description background */
+  .css-kbgga1 {
+    background-color: #323232;
+  }
+
+  /* END hotfix description background */
 }
