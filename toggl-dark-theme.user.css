@@ -501,6 +501,7 @@
   .efwcymi0:hover,
   .efwcymi0:focus {
     background-color: rgb(73, 73, 73);
+    color: #cecece;
   }
 
   .css-1qx1ltg:hover,
@@ -535,4 +536,24 @@
   }
 
   /* END hotfix description background */
+
+  /* START description overflow gradient */
+  .css-8w0izr::after {
+    background: linear-gradient(
+      to right,
+      rgba(255, 255, 255, 0) 0%,
+      #323232 90%
+    );
+  }
+
+  .css-rlhb3m:hover .e1lkghrh0::after,
+  .css-rlhb3m:focus .e1lkghrh0::after {
+    background: linear-gradient(
+      to right,
+      rgba(244, 245, 246, 0) 0%,
+      rgb(73, 73, 73) 90%
+    );
+  }
+
+  /* END description overflow gradient */
 }
