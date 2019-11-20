@@ -14,6 +14,10 @@
     background: #323232;
   }
 
+  .TimerContainer__timerContainer > .css-1u4qrnw {
+    background: #323232;
+  }
+
   .TimerForm__discardTimeEntry {
     border-left: 1px solid #757575;
   }
@@ -173,6 +177,8 @@
   .css-1hkcm8a,
   .css-r8wp6n,
   .css-1rcwj86,
+  .css-14zyegw,
+  .css-kn7lze,
   [class*="Controls-DayListControls"],
   [class*="Inner-innerNestedBlock-TimerItem"],
   .ListItem__item,
@@ -184,8 +190,8 @@
   [class*="ListTitle-title"],
   [class*="TotalTimeCounter-title"],
   [class*="Item-item-TimerItem"]:hover,
-  .css-lpgo4,
-  .css-mpizb1 {
+  .css-15480s6,
+  .css-14nti3f {
     color: #737373;
   }
 
@@ -538,7 +544,8 @@
   /* END hotfix description background */
 
   /* START description overflow gradient */
-  .css-8w0izr::after {
+  .css-8w0izr::after,
+  .css-1xqsysd::after {
     background: linear-gradient(
       to right,
       rgba(255, 255, 255, 0) 0%,
