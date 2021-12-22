@@ -1,5 +1,10 @@
 # toggl-dark-theme
 
+# Deprecation notice
+
+**This project is not supported. If you want a dark theme I suggest to try the [Dark Reader](https://darkreader.org/) extension.**
+
+
 [![Install directly with Stylus](https://img.shields.io/badge/Install%20directly%20with-Stylus-00adad.svg)](toggl-dark-theme.user.css?raw=true)
 
 Dark theme for [Toggl](https://toggl.com).
